@@ -96,6 +96,7 @@ body[data-view='midway'] main {
   touch-action: none;
 }
 
+.midway-hello,
 .midway-help,
 .midway-guide,
 .midway-credit,
@@ -105,6 +106,15 @@ body[data-view='midway'] main {
   border: 2px solid var(--color-accent);
   border-radius: var(--radius);
   background: color-mix(in srgb, var(--color-background) 88%, transparent);
+}
+
+.midway-hello {
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 6px 18px;
+  color: var(--color-accent);
+  font-size: 28px;
 }
 
 .midway-help {
